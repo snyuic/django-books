@@ -6,13 +6,6 @@
 
 body {
     background: #F1F1F1;
-    display: flex;
-    flex-flow: column;
-    min-height: 100vh;
-}
-
-main {
-    flex: 1;
 }
 
 table {
@@ -94,4 +87,47 @@ table {
 
 .form-control:focus {
     box-shadow: none;
+}
+
+/* base */
+
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* book */
+
+.booklist img {
+    height: 200px;
+    object-fit: contain;
+}
+
+/* detail */
+
+.star-rating {
+	position: relative;
+	font-size: 20px;
+	word-wrap: normal !important;
+}
+
+.star-rating-front {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.star-rating-back {
+	color: #ccc;
+}
+
+.average {
+	font-size: 20px;
+	font-weight: bold;
 }

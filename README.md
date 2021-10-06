@@ -1,1 +1,1 @@
-# django-custom-auth
+# django-books

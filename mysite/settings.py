@@ -38,13 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'widget_tweaks', # 追加
-    'app', # 追加
-    'accounts', # 追加
-    'django.contrib.sites', # 追加
-    'allauth', # 追加
-    'allauth.account', # 追加
-    'allauth.socialaccount' # 追加
+    'widget_tweaks',
+    'app',
+    'accounts',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
 ]
 
 MIDDLEWARE = [
